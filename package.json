@@ -1,0 +1,21 @@
+{
+  "name": "etl_bakery",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "oltp-migrate": "node oltp/oltp_migrate.js",
+    "oltp-seed": "node oltp/oltp-seed.js",
+    "dw-migrate": "node data_warehouses/warehouse_migrate.js",
+    "etl-start": "node etl/etl.js",
+    "dev": "npm run oltp-migrate && npm run oltp-seed && npm run dw-migrate && npm run etl-start"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "dotenv": "^17.2.3",
+    "mysql2": "^3.15.1"
+  }
+}

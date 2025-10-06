@@ -5,6 +5,7 @@ Proyek sederhana tentang ETL (Extract, Transform, Load) dari OLTP ( online trans
 Proyek ini adalah proses ETL dari OLTP database ke data warehouse menggunakan MySQL. OLTP bakery  mencakup transaksi penjualan, pembelian supply, bahan baku, resep, dan juga item dalam bisnis bakery. Data warehouse menggunakan galaxy schema yang mana terdapat 2 fakta tabel untuk menganalisis transaksi pelanggan, dan pembelian supply untuk bahan baku.
 
 ## Struktur Folder
+```
 ├── data_warehouses/
 │   └── warehouse_migrate.js  # script migrasi data warehouse
 ├── diagram/
@@ -18,6 +19,7 @@ Proyek ini adalah proses ETL dari OLTP database ke data warehouse menggunakan My
 ├── package-lock.json
 ├── package.json
 └── README.md
+```
 
 ## Skema Diagram OLTP
 ![Diagram OLTP](./diagram/bakery%20oltp.png)

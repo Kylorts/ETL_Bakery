@@ -16,6 +16,8 @@ Proyek ini adalah proses ETL dari OLTP database ke data warehouse menggunakan My
 ├── oltp/
 │   ├── oltp-migrate.js # script migrasi OLTP 
 │   └── oltp-seed.js  # script isi data dummy ke OLTP
+├── db_config.js # konfigurasi database
+├── .gitignore
 ├── package-lock.json
 ├── package.json
 └── README.md
